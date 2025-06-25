@@ -205,9 +205,9 @@ section {
 
   #nosotros {
   /* Estilos para la sección "Nosotros" */
-  min-height: 71vh;
+  min-height: 50vh;
   background-color: #fdfdfd;
-  padding: 60px 20px;
+  padding: 20px 10px;
   text-align: center;
 }
 
@@ -215,9 +215,9 @@ section {
   /* Título de la sección "Nosotros" */
   font-size: 60px;
   color: #333;
-  margin-bottom: 40px;
-  font-weight: 900;
-  text-shadow: 2px 2px 4px #ccc;
+  margin-bottom: 10px;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px var(--amarillo);
 }
 
 /* CONTENEDOR Y CARRUSEL */
@@ -240,7 +240,7 @@ section {
 /* TARJETAS DENTRO DEL CARRUSEL */
 .tarjeta {
   /* Tarjetas individuales dentro del carrusel */
-  min-height: 600px;
+  min-height: 300px;
   flex: 0 0 100%;
   padding: 30px;
   border-radius: 20px;
